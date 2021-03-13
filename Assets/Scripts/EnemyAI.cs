@@ -10,6 +10,7 @@ public class EnemyAI : MonoBehaviour
 
     NavMeshAgent agent;
     float distanceToTarget = Mathf.Infinity;
+    bool isProvoked;
 
     // Start is called before the first frame update
     void Start()
@@ -17,18 +18,52 @@ public class EnemyAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
     }
 
+    void DoChase()
+    {
+        agent.SetDestination(target.position);
+    }
+
     void TryChaseTarget()
     {
         distanceToTarget = Vector3.Distance(transform.position, target.position);
-        if (distanceToTarget <= chaseRange)
+        if (isProvoked)
         {
-            agent.SetDestination(target.position);
+            EngageTarget();
         }
+        else if (distanceToTarget <= chaseRange)
+        {
+            isProvoked = true;
+            EngageTarget();
+        }
+    }
+
+    void EngageTarget()
+    {
+        if (distanceToTarget >= agent.stoppingDistance)
+        {
+            DoChase();
+        }
+
+        if(distanceToTarget <= agent.stoppingDistance)
+        {
+            Attach();    
+        }
+    }
+
+    void Attach()
+    {
+        Debug.Log(name + " is attacking " + target.name);
     }
 
     // Update is called once per frame
     void Update()
     {
         TryChaseTarget();
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, chaseRange);
     }
 }
