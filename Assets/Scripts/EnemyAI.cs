@@ -20,6 +20,8 @@ public class EnemyAI : MonoBehaviour
 
     void DoChase()
     {
+        GetComponent<Animator>().SetBool("Attack", false);
+        GetComponent<Animator>().SetTrigger("Move"); 
         agent.SetDestination(target.position);
     }
 
@@ -46,12 +48,13 @@ public class EnemyAI : MonoBehaviour
 
         if(distanceToTarget <= agent.stoppingDistance)
         {
-            Attach();    
+            Attack();    
         }
     }
 
-    void Attach()
+    void Attack()
     {
+        GetComponent<Animator>().SetBool("Attack", true);
         Debug.Log(name + " is attacking " + target.name);
     }
 
