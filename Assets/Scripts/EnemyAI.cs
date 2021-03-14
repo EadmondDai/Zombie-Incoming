@@ -55,7 +55,6 @@ public class EnemyAI : MonoBehaviour
     void Attack()
     {
         GetComponent<Animator>().SetBool("Attack", true);
-        Debug.Log(name + " is attacking " + target.name);
     }
 
     // Update is called once per frame
