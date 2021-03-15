@@ -18,4 +18,9 @@ public class EnemyAttack : MonoBehaviour
         playerHealth.GetComponent<PlayerHealth>().OnHit(damage);
 
     }
+
+    public void OnTakeDamage(int damage)
+    {
+        //TODO we could add hit reaction, like faster attack, stop for a second
+    }
 }

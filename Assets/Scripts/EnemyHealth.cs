@@ -6,9 +6,12 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] int health = 100;
 
-    public void OnHit(int damange)
+    public void OnHit(int damage)
     {
-        health -= damange;
+        if (damage <= 0) return;
+        health -= damage;
+
+        BroadcastMessage("OnTakeDamage", damage);
 
         if(health <= 0)
         {
