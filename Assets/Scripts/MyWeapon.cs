@@ -10,13 +10,18 @@ public class MyWeapon : MonoBehaviour
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] GameObject hitEffectObj;
     [SerializeField] float hitEffectLifeTime = 0.3f;
+    [SerializeField] Ammo ammoScript;
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
+            if(ammoScript.AmmoAmount > 0)
+            {
+               Shoot();
+                ammoScript.DecreaseCurAmmo();
+            }
         }        
     }
 
