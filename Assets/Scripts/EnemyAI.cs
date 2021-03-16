@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
+    [SerializeField] EnemyHealth enemyHealth;
     [SerializeField] Transform target;
     [SerializeField] float chaseRange = 10f;
     [SerializeField] float turnSpeed = 3f;
@@ -12,6 +13,7 @@ public class EnemyAI : MonoBehaviour
     NavMeshAgent agent;
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked;
+    bool isDead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +65,7 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (enemyHealth.GetHealth() <= 0) return;
         TryChaseTarget();
     }
 
