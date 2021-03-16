@@ -20,7 +20,6 @@ public class EnemyHealth : MonoBehaviour
         if(health <= 0)
         {
             GetComponent<Animator>().SetTrigger("Die");
-            GetComponent<NavMeshAgent>().speed = 0;
             isDead = true;
         }
     }

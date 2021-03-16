@@ -65,8 +65,16 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enemyHealth.GetHealth() <= 0) return;
-        TryChaseTarget();
+        if (enemyHealth.GetHealth() <= 0)
+        {
+            enabled = false;
+            agent.enabled = false;
+            return;
+        }
+        else
+        {
+            TryChaseTarget();
+        }
     }
 
     void FaceTarget()
