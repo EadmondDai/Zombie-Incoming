@@ -74,6 +74,7 @@ public class WeaponSwtich : MonoBehaviour
 
     void SetActiveWeapon(int weaponIdx)
     {
+        BroadcastMessage("OnSwitchWeapon");
         int curWeapon = 0;
         foreach(Transform child in transform)
         {

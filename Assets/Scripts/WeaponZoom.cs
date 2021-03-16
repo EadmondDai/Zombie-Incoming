@@ -62,4 +62,9 @@ public class WeaponZoom : MonoBehaviour
             myFPSController.mouseLook.YSensitivity = defualtSensitivity;
         }
     }
+
+    void OnSwitchWeapon()
+    {
+        isZoomIn = false;
+    }
 }
