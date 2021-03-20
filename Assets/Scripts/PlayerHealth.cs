@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] int playerHealth = 150;
+    [SerializeField] DisplayDamage dmageScript;
 
     private DeathHandler deathScript;
 
@@ -16,6 +17,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void OnHit(int damage)
     {
+        dmageScript.OnImpact();
         playerHealth -= damage;
         if(playerHealth <= 0)
         {

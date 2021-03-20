@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MyWeapon : MonoBehaviour
@@ -12,15 +13,15 @@ public class MyWeapon : MonoBehaviour
     [SerializeField] float hitEffectLifeTime = 0.3f;
     [SerializeField] Ammo ammoScript;
     [SerializeField] AmmoType ammoType;
+    [SerializeField] TextMeshProUGUI ammoText;
 
     bool canShoot = true;
     [SerializeField] float timeBewtweenShots = 0.5f;
 
-
-
     // Update is called once per frame
     void Update()
     {
+        DisplayAmmo();
         if (Input.GetButtonDown("Fire1") && canShoot)
         {
             if (ammoScript.GetAmmoAmount(ammoType) > 0)
@@ -67,5 +68,11 @@ public class MyWeapon : MonoBehaviour
     void OnEnable()
     {
         canShoot = true;
+        DisplayAmmo();
+    }
+
+    void DisplayAmmo()
+    {
+        ammoText.text = ammoScript.GetAmmoAmount(ammoType).ToString();
     }
 }
