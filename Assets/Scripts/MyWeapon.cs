@@ -14,6 +14,7 @@ public class MyWeapon : MonoBehaviour
     [SerializeField] Ammo ammoScript;
     [SerializeField] AmmoType ammoType;
     [SerializeField] TextMeshProUGUI ammoText;
+    [SerializeField] AudioSource fireAudio;
 
     bool canShoot = true;
     [SerializeField] float timeBewtweenShots = 0.5f;
@@ -37,9 +38,15 @@ public class MyWeapon : MonoBehaviour
         canShoot = false;
         CheckHit();
         PlayMuzzleFlash();
+        PlayFireAudio();
         ammoScript.DecreaseCurAmmo(ammoType);
         yield return new WaitForSeconds(timeBewtweenShots);
         canShoot = true;
+    }
+
+    void PlayFireAudio()
+    {
+        fireAudio.Play();
     }
 
     void CheckHit()

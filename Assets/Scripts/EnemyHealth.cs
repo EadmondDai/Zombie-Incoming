@@ -21,6 +21,7 @@ public class EnemyHealth : MonoBehaviour
         if(health <= 0)
         {
             GetComponent<Animator>().SetTrigger("Die");
+            GetComponent<AudioSource>().Stop();
             myCollider.enabled = false;
             isDead = true;
         }
