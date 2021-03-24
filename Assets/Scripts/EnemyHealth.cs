@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] int health = 100;
+    [SerializeField] Collider myCollider;
 
     bool isDead = false;
 
@@ -20,6 +21,7 @@ public class EnemyHealth : MonoBehaviour
         if(health <= 0)
         {
             GetComponent<Animator>().SetTrigger("Die");
+            myCollider.enabled = false;
             isDead = true;
         }
     }

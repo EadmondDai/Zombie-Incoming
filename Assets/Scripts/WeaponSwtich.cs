@@ -53,10 +53,10 @@ public class WeaponSwtich : MonoBehaviour
         {
             activeWeapon = 1;
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            activeWeapon = 2;
-        }
+        //else if(Input.GetKeyDown(KeyCode.Alpha3))
+        //{
+        //    activeWeapon = 2;
+        //}
     }
 
     // Update is called once per frame
