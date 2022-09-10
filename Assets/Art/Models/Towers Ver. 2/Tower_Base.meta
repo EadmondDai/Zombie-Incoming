@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Art/Models/Tower_Base.meta
+guid: 8f8f92c06e85c70419ce0ee185cd866c
+========
+guid: 708049dc28ca6f64696b5b1be2a6eff7
+>>>>>>>> BattleShipBranch:Assets/Prefabs/TowerDefensePrefabs/Tower/ActualTower/Turret/ShockWave.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
