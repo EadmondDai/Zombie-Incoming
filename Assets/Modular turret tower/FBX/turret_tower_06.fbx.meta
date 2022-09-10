@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: d0f420bd20089b84e92d7185c8f41e92
+timeCreated: 1496490364
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: barrels
+    100002: barrels 1
+    100004: base
+    100006: body
+    100008: body 1
+    100010: body 2
+    100012: body_frame
+    100014: body_frame 1
+    100016: decor
+    100018: decor 1
+    100020: decor 2
+    100022: decor2
+    100024: decor3
+    100026: decor4
+    100028: head
+    100030: head 1
+    100032: head_holder
+    100034: head_rotator
+    100036: holder
+    100038: holder 1
+    100040: motor
+    100042: rotor1
+    100044: rotor2
+    100046: tower_base
+    100048: tower_body
+    100050: tower_body_door_front
+    100052: tower_body_door_left
+    100054: tower_body_door_rear
+    100056: tower_body_door_right
+    100058: tower_head
+    100060: tower_head_door_center
+    100062: tower_head_door_left
+    100064: tower_head_door_right
+    100066: tower_leg
+    100068: //RootNode
+    100070: weapon_06_left
+    100072: weapon_06_right
+    400000: barrels
+    400002: barrels 1
+    400004: base
+    400006: body
+    400008: body 1
+    400010: body 2
+    400012: body_frame
+    400014: body_frame 1
+    400016: decor
+    400018: decor 1
+    400020: decor 2
+    400022: decor2
+    400024: decor3
+    400026: decor4
+    400028: head
+    400030: head 1
+    400032: head_holder
+    400034: head_rotator
+    400036: holder
+    400038: holder 1
+    400040: motor
+    400042: rotor1
+    400044: rotor2
+    400046: tower_base
+    400048: tower_body
+    400050: tower_body_door_front
+    400052: tower_body_door_left
+    400054: tower_body_door_rear
+    400056: tower_body_door_right
+    400058: tower_head
+    400060: tower_head_door_center
+    400062: tower_head_door_left
+    400064: tower_head_door_right
+    400066: tower_leg
+    400068: //RootNode
+    400070: weapon_06_left
+    400072: weapon_06_right
+    2300000: barrels
+    2300002: barrels 1
+    2300004: body
+    2300006: body 1
+    2300008: body 2
+    2300010: body_frame 1
+    2300012: decor
+    2300014: decor 1
+    2300016: decor 2
+    2300018: decor2
+    2300020: decor3
+    2300022: decor4
+    2300024: head 1
+    2300026: head_holder
+    2300028: head_rotator
+    2300030: holder
+    2300032: holder 1
+    2300034: motor
+    2300036: rotor1
+    2300038: rotor2
+    2300040: tower_base
+    2300042: tower_body_door_front
+    2300044: tower_body_door_left
+    2300046: tower_body_door_rear
+    2300048: tower_body_door_right
+    2300050: tower_head_door_center
+    2300052: tower_head_door_left
+    2300054: tower_head_door_right
+    2300056: tower_leg
+    3300000: barrels
+    3300002: barrels 1
+    3300004: body
+    3300006: body 1
+    3300008: body 2
+    3300010: body_frame 1
+    3300012: decor
+    3300014: decor 1
+    3300016: decor 2
+    3300018: decor2
+    3300020: decor3
+    3300022: decor4
+    3300024: head 1
+    3300026: head_holder
+    3300028: head_rotator
+    3300030: holder
+    3300032: holder 1
+    3300034: motor
+    3300036: rotor1
+    3300038: rotor2
+    3300040: tower_base
+    3300042: tower_body_door_front
+    3300044: tower_body_door_left
+    3300046: tower_body_door_rear
+    3300048: tower_body_door_right
+    3300050: tower_head_door_center
+    3300052: tower_head_door_left
+    3300054: tower_head_door_right
+    3300056: tower_leg
+    4300000: motor
+    4300002: rotor2
+    4300004: rotor1
+    4300006: body_frame
+    4300008: head_holder
+    4300010: tower_body_door_front
+    4300012: tower_body_door_left
+    4300014: tower_body_door_right
+    4300016: body
+    4300018: tower_body_door_rear
+    4300020: head
+    4300022: decor
+    4300024: decor2
+    4300026: decor3
+    4300028: decor4
+    4300030: head_rotator
+    4300032: tower_head_door_left
+    4300034: tower_head_door_right
+    4300036: tower_head_door_center
+    4300038: holder
+    4300040: decor
+    4300042: body
+    4300044: barrels
+    4300046: holder
+    4300048: decor
+    4300050: body
+    4300052: barrels
+    4300054: tower_base
+    4300056: tower_leg
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

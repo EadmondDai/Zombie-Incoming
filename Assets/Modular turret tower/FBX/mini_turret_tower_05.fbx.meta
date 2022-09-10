@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 926b87f5ec939234e820a1a2301fbbc3
+timeCreated: 1497463467
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: barrels
+    100002: body
+    100004: body 1
+    100006: decor
+    100008: decor 1
+    100010: decor2
+    100012: holder
+    100014: holder 1
+    100016: leg1
+    100018: leg2
+    100020: leg3
+    100022: leg_arm
+    100024: leg_arm 1
+    100026: leg_arm 2
+    100028: leg_bottom
+    100030: leg_bottom 1
+    100032: leg_bottom 2
+    100034: legs
+    100036: //RootNode
+    100038: weapon_05
+    400000: barrels
+    400002: body
+    400004: body 1
+    400006: decor
+    400008: decor 1
+    400010: decor2
+    400012: holder
+    400014: holder 1
+    400016: leg1
+    400018: leg2
+    400020: leg3
+    400022: leg_arm
+    400024: leg_arm 1
+    400026: leg_arm 2
+    400028: leg_bottom
+    400030: leg_bottom 1
+    400032: leg_bottom 2
+    400034: legs
+    400036: //RootNode
+    400038: weapon_05
+    2300000: barrels
+    2300002: body
+    2300004: body 1
+    2300006: decor
+    2300008: decor 1
+    2300010: decor2
+    2300012: holder
+    2300014: holder 1
+    2300016: leg_arm
+    2300018: leg_arm 1
+    2300020: leg_arm 2
+    2300022: leg_bottom
+    2300024: leg_bottom 1
+    2300026: leg_bottom 2
+    3300000: barrels
+    3300002: body
+    3300004: body 1
+    3300006: decor
+    3300008: decor 1
+    3300010: decor2
+    3300012: holder
+    3300014: holder 1
+    3300016: leg_arm
+    3300018: leg_arm 1
+    3300020: leg_arm 2
+    3300022: leg_bottom
+    3300024: leg_bottom 1
+    3300026: leg_bottom 2
+    4300000: leg_arm
+    4300002: leg_bottom
+    4300004: leg_arm
+    4300006: leg_bottom
+    4300008: leg_arm
+    4300010: leg_bottom
+    4300012: body
+    4300014: holder
+    4300016: decor
+    4300018: holder
+    4300020: decor2
+    4300022: barrels
+    4300024: body
+    4300026: decor
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

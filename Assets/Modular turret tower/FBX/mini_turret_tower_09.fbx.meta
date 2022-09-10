@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 7ea1857e22fb56040be188876e3fa6c6
+timeCreated: 1497465575
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: barrels
+    100002: body
+    100004: body 1
+    100006: cover
+    100008: decor
+    100010: decor 1
+    100012: decor2
+    100014: holder
+    100016: holder 1
+    100018: leg1
+    100020: leg2
+    100022: leg3
+    100024: leg_arm
+    100026: leg_arm 1
+    100028: leg_arm 2
+    100030: leg_bottom
+    100032: leg_bottom 1
+    100034: leg_bottom 2
+    100036: legs
+    100038: //RootNode
+    100040: weapon_09
+    400000: barrels
+    400002: body
+    400004: body 1
+    400006: cover
+    400008: decor
+    400010: decor 1
+    400012: decor2
+    400014: holder
+    400016: holder 1
+    400018: leg1
+    400020: leg2
+    400022: leg3
+    400024: leg_arm
+    400026: leg_arm 1
+    400028: leg_arm 2
+    400030: leg_bottom
+    400032: leg_bottom 1
+    400034: leg_bottom 2
+    400036: legs
+    400038: //RootNode
+    400040: weapon_09
+    2300000: barrels
+    2300002: body
+    2300004: body 1
+    2300006: cover
+    2300008: decor
+    2300010: decor 1
+    2300012: decor2
+    2300014: holder
+    2300016: holder 1
+    2300018: leg_arm
+    2300020: leg_arm 1
+    2300022: leg_arm 2
+    2300024: leg_bottom
+    2300026: leg_bottom 1
+    2300028: leg_bottom 2
+    3300000: barrels
+    3300002: body
+    3300004: body 1
+    3300006: cover
+    3300008: decor
+    3300010: decor 1
+    3300012: decor2
+    3300014: holder
+    3300016: holder 1
+    3300018: leg_arm
+    3300020: leg_arm 1
+    3300022: leg_arm 2
+    3300024: leg_bottom
+    3300026: leg_bottom 1
+    3300028: leg_bottom 2
+    4300000: leg_arm
+    4300002: leg_bottom
+    4300004: leg_arm
+    4300006: leg_bottom
+    4300008: leg_arm
+    4300010: leg_bottom
+    4300012: body
+    4300014: holder
+    4300016: decor
+    4300018: holder
+    4300020: barrels
+    4300022: cover
+    4300024: body
+    4300026: decor
+    4300028: decor2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
