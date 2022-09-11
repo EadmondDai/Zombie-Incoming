@@ -28,7 +28,6 @@ public class EnemyAI : MonoBehaviour
         {
             TryChaseTarget(GameObject.FindGameObjectWithTag("Player").transform);
         }
-            
     }
 
     void DoChase()
