@@ -9,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] Transform target;
     [SerializeField] float chaseRange = 10f;
     [SerializeField] float turnSpeed = 3f;
+    [SerializeField] bool chaseOnEnable = false;
 
     NavMeshAgent agent;
     float distanceToTarget = Mathf.Infinity;
@@ -21,6 +22,15 @@ public class EnemyAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
     }
 
+    private void OnEnable()
+    {
+        if (chaseOnEnable)
+        {
+            TryChaseTarget(GameObject.FindGameObjectWithTag("Player").transform);
+        }
+            
+    }
+
     void DoChase()
     {
         FaceTarget();
@@ -29,8 +39,14 @@ public class EnemyAI : MonoBehaviour
         agent.SetDestination(target.position);
     }
 
-    void TryChaseTarget()
+    void TryChaseTarget(Transform newTarget = null)
     {
+        if (newTarget)
+            target = newTarget;
+
+        if (target == null)
+            return;
+
         distanceToTarget = Vector3.Distance(transform.position, target.position);
         if (isProvoked)
         {
