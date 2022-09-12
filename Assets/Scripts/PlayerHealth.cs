@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] int playerHealth = 150;
     [SerializeField] DisplayDamage dmageScript;
+    [SerializeField] TextMeshProUGUI healthText;
 
     private DeathHandler deathScript;
 
@@ -19,6 +21,9 @@ public class PlayerHealth : MonoBehaviour
     {
         dmageScript.OnImpact();
         playerHealth -= damage;
+
+        healthText.text = playerHealth.ToString();
+
         if(playerHealth <= 0)
         {
             deathScript.OnDead();
