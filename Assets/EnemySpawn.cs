@@ -29,7 +29,7 @@ public class EnemySpawn : MonoBehaviour
         {
             Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length - 1)];
 
-            GameObject newEnemy = Instantiate(enemyPrefab, spawnPoint);
+            GameObject newEnemy = Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
             newEnemy.transform.parent = enemyHolder;
             enemyLeft--;
 
