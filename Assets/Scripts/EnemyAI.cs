@@ -46,6 +46,9 @@ public class EnemyAI : MonoBehaviour
         if (target == null)
             return;
 
+        if (!agent  || !agent.isOnNavMesh)
+            return;
+
         distanceToTarget = Vector3.Distance(transform.position, target.position);
         if (isProvoked)
         {
