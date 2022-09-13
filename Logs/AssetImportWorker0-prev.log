@@ -15,11 +15,11 @@ C:/Users/Eadmond/Documents/GitHub/Avatar2DTest/Zombie-Incoming
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8167
+11820
 Successfully changed project path to: C:/Users/Eadmond/Documents/GitHub/Avatar2DTest/Zombie-Incoming
 C:/Users/Eadmond/Documents/GitHub/Avatar2DTest/Zombie-Incoming
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 56.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,102 +35,56 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001734 seconds.
+Registered in 0.001742 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 56.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  1.006 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001006 seconds.
+Registered in 0.000915 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.889 seconds
+- Completed reload, in  0.843 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.6 MB.
-System memory in use after: 118.3 MB.
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 2335.
-Total: 2.177400 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.494200 ms  DeleteObjects: 0.406300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/LastBlood.unity
-  artifactKey: Guid(1abc387eb8bbdc84290f92708f45bf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LastBlood.unity using Guid(1abc387eb8bbdc84290f92708f45bf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e108dc3a9d5a93ce20aa9aae6ce3fc2') in 0.013317 seconds
-  Import took 0.017368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Scenes/守卫基地.png
-  artifactKey: Guid(7323469c1bbd3b24da82819881301cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/守卫基地.png using Guid(7323469c1bbd3b24da82819881301cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d798d595b3a4a9607466c717b5a5501') in 0.080359 seconds
-  Import took 0.083704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Scenes/NewLayer.terrainlayer
-  artifactKey: Guid(511bc41f3c37c7a48827f26e06bce3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NewLayer.terrainlayer using Guid(511bc41f3c37c7a48827f26e06bce3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e789e55991ca10b14a6bcea11e533') in 0.037491 seconds
-  Import took 0.040530 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000663 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1774 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.9 MB.
-System memory in use after: 111.6 MB.
+Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.9 MB.
+System memory in use after: 118.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 3.046100 ms (FindLiveObjects: 0.203800 ms CreateObjectMapping: 0.040400 ms MarkObjects: 2.179200 ms  DeleteObjects: 0.621600 ms)
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 2.426800 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.788800 ms  DeleteObjects: 0.405100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2b7ab09043be43650de240bca00483') in 0.054573 seconds
+  Import took 0.059464 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001123 seconds.
+Registered in 0.001416 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -142,51 +96,51 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 4.390000 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.028400 ms MarkObjects: 3.426800 ms  DeleteObjects: 0.734600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1774 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.0 MB.
-System memory in use after: 111.6 MB.
+Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2346.
-Total: 2.252700 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.093400 ms MarkObjects: 1.545600 ms  DeleteObjects: 0.313600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001084 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1774 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.9 MB.
-System memory in use after: 111.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2349.
-Total: 2.187300 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.631100 ms  DeleteObjects: 0.365300 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 2.269600 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.758800 ms  DeleteObjects: 0.324700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001225 seconds.
+Registered in 0.000693 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -202,312 +156,420 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 4.710400 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.160200 ms MarkObjects: 3.607100 ms  DeleteObjects: 0.605100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 2.430500 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.804800 ms  DeleteObjects: 0.370100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.530322 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5bc4ace796bdc38806fc30b1e64e2e') in 0.035482 seconds
+  Import took 0.039045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001899 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5bc4ace796bdc38806fc30b1e64e2e') in 0.006204 seconds
+  Import took 0.010000 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 3.544200 ms (FindLiveObjects: 0.230800 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.512400 ms  DeleteObjects: 0.745100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.672298 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59e359c2f505d579441252ed50dd233') in 0.031803 seconds
+  Import took 0.035278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.958518 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74d0cc28a1dbc60d685501e71a70d33') in 0.007929 seconds
+  Import took 0.012432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 2.556900 ms (FindLiveObjects: 0.164600 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.905000 ms  DeleteObjects: 0.449100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 3.054600 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.030100 ms MarkObjects: 2.514700 ms  DeleteObjects: 0.356500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000854 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1774 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.0 MB.
-System memory in use after: 111.7 MB.
+Unloading 1776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.0 MB.
+System memory in use after: 109.7 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2352.
-Total: 2.510600 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.846400 ms  DeleteObjects: 0.393600 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 2.266800 ms (FindLiveObjects: 0.146300 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.719500 ms  DeleteObjects: 0.368800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.0 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 2.786500 ms (FindLiveObjects: 0.267100 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.036800 ms  DeleteObjects: 0.428500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2368.
+Total: 2.681000 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.060100 ms MarkObjects: 1.984500 ms  DeleteObjects: 0.378800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8257.668041 seconds.
-  path: Assets/Scripts/PlayerHealth.cs
-  artifactKey: Guid(36122d25b8075c240878699736f373b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerHealth.cs using Guid(36122d25b8075c240878699736f373b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3289ad4b8318b312c9029238c8a21f7f') in 0.033873 seconds
-  Import took 0.037614 seconds .
+  Time since last request: 1393.364444 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_07.fbx
+  artifactKey: Guid(c95d9a48807adf14c9333fa7d816cf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_07.fbx using Guid(c95d9a48807adf14c9333fa7d816cf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8d5c86d74bbe6c485ee61334449d98') in 0.706608 seconds
+  Import took 0.718828 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002780 seconds.
-  path: Assets/Scripts/PlayerHealth.cs
-  artifactKey: Guid(36122d25b8075c240878699736f373b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerHealth.cs using Guid(36122d25b8075c240878699736f373b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3289ad4b8318b312c9029238c8a21f7f') in 0.002533 seconds
-  Import took 0.005903 seconds .
+  Time since last request: 0.000325 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_01.fbx
+  artifactKey: Guid(e0c4c9a0135d61e4b96ca43ed319795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_01.fbx using Guid(e0c4c9a0135d61e4b96ca43ed319795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0397b33c0ee3330ba69297d8b2edbd72') in 0.196879 seconds
+  Import took 0.206300 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.651321 seconds.
-  path: Assets/Prefab/PickUps/BateryPickUp.prefab
-  artifactKey: Guid(fb4b6a17be1b260478db6e3451dcafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps/BateryPickUp.prefab using Guid(fb4b6a17be1b260478db6e3451dcafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdaa52d1f8f981e47f4422f4b3a9ce2') in 0.038776 seconds
-  Import took 0.044248 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_06.fbx
+  artifactKey: Guid(d0f420bd20089b84e92d7185c8f41e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_06.fbx using Guid(d0f420bd20089b84e92d7185c8f41e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a1484e30fc6fbedefb5144dcb477ec') in 0.226633 seconds
+  Import took 0.236385 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Prefab/PickUps/BulletPickUp.prefab
-  artifactKey: Guid(9a4b0ff952bca3446b9dea5a7cde0415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps/BulletPickUp.prefab using Guid(9a4b0ff952bca3446b9dea5a7cde0415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042003dbe4741914f03263c6f022e4fa') in 0.013958 seconds
-  Import took 0.017289 seconds .
+  Time since last request: 0.000194 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx
+  artifactKey: Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx using Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e52a81b1507f7da6537b46005aa2212') in 0.433824 seconds
+  Import took 0.437833 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab
-  artifactKey: Guid(c02747e7134ef1948a039c94a8f33c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab using Guid(c02747e7134ef1948a039c94a8f33c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e730568523577409a155625e1587f6b') in 0.227864 seconds
-  Import took 0.232188 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_05.fbx
+  artifactKey: Guid(6fa3b928a84de7847b42f788b7dbef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_05.fbx using Guid(6fa3b928a84de7847b42f788b7dbef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72059f2887b4ed9bf1b10dab248bc48c') in 0.217117 seconds
+  Import took 0.227060 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/AssetPackages/SampleScenes/Models/Pickup.fbx
-  artifactKey: Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPackages/SampleScenes/Models/Pickup.fbx using Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17405189180142d5445120009040b20c') in 0.072230 seconds
-  Import took 0.075113 seconds .
+  Time since last request: 0.000365 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_03.fbx
+  artifactKey: Guid(39012864bf0ed354d8f0cf88c7fd1747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_03.fbx using Guid(39012864bf0ed354d8f0cf88c7fd1747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e97f1cea05faa4deb0b45e3f354667d') in 0.220071 seconds
+  Import took 0.229211 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Prefab/PickUps/ShellPickUp.prefab
-  artifactKey: Guid(b7091a1f3a1c9504ba2aaea2bedc03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps/ShellPickUp.prefab using Guid(b7091a1f3a1c9504ba2aaea2bedc03d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a9d5fb9208035f9493326f67519fd6') in 0.011122 seconds
-  Import took 0.014187 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_04.fbx
+  artifactKey: Guid(c463e5f8c42a74342889ba3dacdfbb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_04.fbx using Guid(c463e5f8c42a74342889ba3dacdfbb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbd8282b52e8652591491c72c3279ef') in 0.196913 seconds
+  Import took 0.206211 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Prefab/PickUps/TempPickUp.prefab
-  artifactKey: Guid(4c3895d3a33f57d41b5facca5f43e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps/TempPickUp.prefab using Guid(4c3895d3a33f57d41b5facca5f43e01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a31acf6014989ac7827fe2e60f89fd2') in 0.010121 seconds
-  Import took 0.013023 seconds .
+  Time since last request: 0.000365 seconds.
+  path: Assets/AssetPackages/Abandoned_Asylum/Textures/Heater_Albedo.png
+  artifactKey: Guid(3ed718b93f7615d4e930824d9d35c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Abandoned_Asylum/Textures/Heater_Albedo.png using Guid(3ed718b93f7615d4e930824d9d35c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721a809857399eb9912dd3869d10349c') in 0.048694 seconds
+  Import took 0.052082 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx
-  artifactKey: Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx using Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b898ac774e786a482cc5142115cf2ade') in 0.033644 seconds
-  Import took 0.036755 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/AssetPackages/Abandoned_Asylum/Textures/Heater_MetallicSmoothness.png
+  artifactKey: Guid(865aecfdbc4ab5a4793ee85bca70b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Abandoned_Asylum/Textures/Heater_MetallicSmoothness.png using Guid(865aecfdbc4ab5a4793ee85bca70b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e606e0e9a45d6848bf7986bf5f78bc') in 0.032758 seconds
+  Import took 0.035993 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/AssetPackages/SampleScenes/Prefabs/Pickup.prefab
-  artifactKey: Guid(2ed830309d1c9f640a65bf22d9060af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPackages/SampleScenes/Prefabs/Pickup.prefab using Guid(2ed830309d1c9f640a65bf22d9060af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8fafe335d7a3d6476875ae5152b2bd') in 0.021200 seconds
-  Import took 0.024466 seconds .
+  Time since last request: 0.000227 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_10.fbx
+  artifactKey: Guid(76a88b4de893d6f4fafdec9f97f4fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_10.fbx using Guid(76a88b4de893d6f4fafdec9f97f4fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477b6a0b6f47f7883719e45ce9b34c9a') in 0.217678 seconds
+  Import took 0.227781 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.517773 seconds.
-  path: Assets/Prefab/PickUps/Batery.prefab
-  artifactKey: Guid(ac4f6d496c814634d89fa2235c27f8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps/Batery.prefab using Guid(ac4f6d496c814634d89fa2235c27f8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f16a7f5c2856c67c3e0c2adec600220') in 0.026709 seconds
-  Import took 0.029736 seconds .
+  Time since last request: 0.000396 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_08.fbx
+  artifactKey: Guid(22438b705e7982646a6b48e82d655afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_08.fbx using Guid(22438b705e7982646a6b48e82d655afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bee9357508a2fea98f6053c36e23549') in 0.226593 seconds
+  Import took 0.236526 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Prefab/PickUps/Bullet.prefab
-  artifactKey: Guid(299284b1353f93543905eeb2345410a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps/Bullet.prefab using Guid(299284b1353f93543905eeb2345410a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f305e150452b469399508cb49e3fcb03') in 0.008395 seconds
-  Import took 0.011194 seconds .
+  Time since last request: 0.000295 seconds.
+  path: Assets/AssetPackages/Abandoned_Asylum/Textures/Heater_Normal.png
+  artifactKey: Guid(be18f8bc8784e4d48b334fc562b703d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Abandoned_Asylum/Textures/Heater_Normal.png using Guid(be18f8bc8784e4d48b334fc562b703d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5dc94e0782960731d6dcaae463c7bc') in 0.033889 seconds
+  Import took 0.037310 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Prefab/PickUps/Shell.prefab
-  artifactKey: Guid(997e8fe639ccf854cab15af862a5dd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps/Shell.prefab using Guid(997e8fe639ccf854cab15af862a5dd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a26dd7054a6d87e6ec609a3e370cefc') in 0.008636 seconds
-  Import took 0.011573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.985144 seconds.
-  path: Assets/Prefab/PickUps
-  artifactKey: Guid(61f1777c1132dd1448aa03e4ffcc97e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps using Guid(61f1777c1132dd1448aa03e4ffcc97e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a815826b60617e950746cf9d34d2f164') in 0.007229 seconds
-  Import took 0.010640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.292251 seconds.
-  path: Assets/Prefab/PickUps 1
-  artifactKey: Guid(d36d813689760414fb129ed4bf24952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps 1 using Guid(d36d813689760414fb129ed4bf24952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffbc6ad85e6bcb6fe958be6895e9824') in 0.006711 seconds
-  Import took 0.009640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002264 seconds.
-  path: Assets/Prefab/PickUps 1
-  artifactKey: Guid(d36d813689760414fb129ed4bf24952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUps 1 using Guid(d36d813689760414fb129ed4bf24952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffbc6ad85e6bcb6fe958be6895e9824') in 0.002616 seconds
-  Import took 0.005635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.061544 seconds.
-  path: Assets/Prefab/SupplyDrops
-  artifactKey: Guid(d36d813689760414fb129ed4bf24952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops using Guid(d36d813689760414fb129ed4bf24952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbf87a05a6d94854dd265ae6bb99fb7') in 0.006527 seconds
-  Import took 0.009461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.381099 seconds.
-  path: Assets/Prefab/SupplyDrops/Batery.prefab
-  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/Batery.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d7a1428d9c802136e9618ba04b1a64') in 0.005739 seconds
-  Import took 0.009827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Prefab/SupplyDrops/Shell.prefab
-  artifactKey: Guid(d078f6ddcfbd3bf4d97bb397b8b3e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/Shell.prefab using Guid(d078f6ddcfbd3bf4d97bb397b8b3e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911c387425bcfceef488c86b193a789f') in 0.004597 seconds
-  Import took 0.018535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Prefab/SupplyDrops/TempPickUp.prefab
-  artifactKey: Guid(4a1815493231dff498ad991f6f122467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/TempPickUp.prefab using Guid(4a1815493231dff498ad991f6f122467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665a5dc441ad2d593d15f93c38fee05b') in 0.007661 seconds
-  Import took 0.010756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Prefab/SupplyDrops/Bullet.prefab
-  artifactKey: Guid(48bcaf6a7bc866a47a95704fde0e730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/Bullet.prefab using Guid(48bcaf6a7bc866a47a95704fde0e730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4699eb6b31320bbfc933961544be3135') in 0.004876 seconds
-  Import took 0.007635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Prefab/SupplyDrops/BulletPickUp.prefab
-  artifactKey: Guid(fe530a406c561ec468151189e270c0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/BulletPickUp.prefab using Guid(fe530a406c561ec468151189e270c0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f4f353dcc58c5f9c9ea935968a6e69') in 0.009416 seconds
-  Import took 0.012597 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetPackages/Zombie/ZombieRig.fbx
+  artifactKey: Guid(abfe6fc5a9b390a488839c1fc3b58dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Zombie/ZombieRig.fbx using Guid(abfe6fc5a9b390a488839c1fc3b58dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d480a7fecc8286c87637d4f2f1a80c') in 0.287042 seconds
+  Import took 0.291521 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000209 seconds.
-  path: Assets/Prefab/SupplyDrops/ShellPickUp.prefab
-  artifactKey: Guid(84ff4a2f620e9bc4780f050b4e9c8a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/ShellPickUp.prefab using Guid(84ff4a2f620e9bc4780f050b4e9c8a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1543966f1964f3a39c08eaa3bf8f5640') in 0.006708 seconds
-  Import took 0.010039 seconds .
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_02.fbx
+  artifactKey: Guid(c84be72b6b66ebf46869410b98953584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_02.fbx using Guid(c84be72b6b66ebf46869410b98953584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51732c3e21af708ab3f4fdd960ae4880') in 0.168035 seconds
+  Import took 0.177098 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Prefab/SupplyDrops/BateryPickUp.prefab
-  artifactKey: Guid(223011dc2bc0f65499af1c7e735d71b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/BateryPickUp.prefab using Guid(223011dc2bc0f65499af1c7e735d71b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68510b90c53d57fc7521af81490333e') in 0.006069 seconds
-  Import took 0.008911 seconds .
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetPackages/Abandoned_Asylum/Materials/Heater.mat
+  artifactKey: Guid(9cc37fb400e331d48905560d5fb4e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Abandoned_Asylum/Materials/Heater.mat using Guid(9cc37fb400e331d48905560d5fb4e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a776766073cc0dac75ced468a0b077') in 0.191796 seconds
+  Import took 0.195860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.258390 seconds.
+  Time since last request: 0.000386 seconds.
+  path: Assets/AssetPackages/Abandoned_Asylum/Prefabs/Heater.prefab
+  artifactKey: Guid(35e841b08485a4c4ca32bd075e78e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Abandoned_Asylum/Prefabs/Heater.prefab using Guid(35e841b08485a4c4ca32bd075e78e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc80a816338cd35ebd1a22f85ed9d6a') in 0.067085 seconds
+  Import took 0.071411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AssetPackages/Abandoned_Asylum/Models/Heater.fbx
+  artifactKey: Guid(f11bf7a9bb8ca404381a4495268b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Abandoned_Asylum/Models/Heater.fbx using Guid(f11bf7a9bb8ca404381a4495268b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d5f85158476ba7003c19d7cabaa12e') in 0.057762 seconds
+  Import took 0.061497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetPackages/Modular turret tower/FBX/turret_tower_09.fbx
+  artifactKey: Guid(47088fb917ca71b4db9c970ff108e66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPackages/Modular turret tower/FBX/turret_tower_09.fbx using Guid(47088fb917ca71b4db9c970ff108e66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08599451c6341de45ef4160ad6e3c3e') in 0.233570 seconds
+  Import took 0.244474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
   path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
   artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd756d63a4af1291f1888d658ee736a') in 0.009027 seconds
-  Import took 0.012141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.339822 seconds.
-  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
-  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c89e84a368879c5eeb2df5261a1db51') in 0.007517 seconds
-  Import took 0.012075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.132577 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14600843a020f189461f73dcad5ac00') in 0.008795 seconds
-  Import took 0.012165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14600843a020f189461f73dcad5ac00') in 0.003389 seconds
-  Import took 0.006345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.192502 seconds.
-  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
-  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e066372c2ac696434f9fda6634e5d2') in 0.007620 seconds
-  Import took 0.011701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421c1f6b7eda49314e2715a52923bd3f') in 0.002600 seconds
-  Import took 0.005426 seconds .
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae6335e6ed25fe1aa9e15037452f405') in 0.019519 seconds
+  Import took 0.024468 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000695 seconds.
+Registered in 0.000787 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.6 MB.
-System memory in use after: 112.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 2.398600 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.758400 ms  DeleteObjects: 0.383100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 233.056119 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(6d8f1af58a30cf543a5c719060b2eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(6d8f1af58a30cf543a5c719060b2eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a88dca486a4ef38627c1b7c1ad08d0') in 0.075322 seconds
-  Import took 0.080692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(ef89cd0f5a116534e92d19f6059ebd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(ef89cd0f5a116534e92d19f6059ebd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0eecc7bfba5cf4ef0fba159dc19a17') in 0.033794 seconds
-  Import took 0.038250 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001040 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
@@ -518,75 +580,321 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.6 MB.
-System memory in use after: 112.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2367.
-Total: 2.561500 ms (FindLiveObjects: 0.216200 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.940400 ms  DeleteObjects: 0.371300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000995 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.6 MB.
-System memory in use after: 112.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2370.
-Total: 2.423500 ms (FindLiveObjects: 0.222200 ms CreateObjectMapping: 0.074600 ms MarkObjects: 1.773900 ms  DeleteObjects: 0.351300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000845 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
+- Completed reload, in  0.735 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1775 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.6 MB.
-System memory in use after: 112.3 MB.
+Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 126.8 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2373.
-Total: 2.072700 ms (FindLiveObjects: 0.155900 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.504800 ms  DeleteObjects: 0.382000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2418.
+Total: 2.573000 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.961800 ms  DeleteObjects: 0.347200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.591944 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63144be9a6bcd31f87f477f84dad49e') in 0.028328 seconds
+  Import took 0.032013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.906803 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be08b6accf6d514f995df5332684673b') in 0.006847 seconds
+  Import took 0.010126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.752136 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44642229d4b4428890bb207d0350c707') in 0.005946 seconds
+  Import took 0.010556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.149832 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55030983268356eac31796ed454f519e') in 0.005590 seconds
+  Import took 0.009074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.482775 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd96286cbee9c5d8982a3ef34c1d0da') in 0.004958 seconds
+  Import took 0.008390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966859 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb4c4686b14c74d5ed4bbad4e3b033d') in 0.007204 seconds
+  Import took 0.011103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.268580 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed53a8caaf49d13c7dd76d805c2c85d') in 0.005431 seconds
+  Import took 0.009284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.380955 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efa04b0c1abc9e0b8b5c15a0614b156') in 0.006256 seconds
+  Import took 0.010008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.753705 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4fe9fddbcf0c00188122e586a78782') in 0.005249 seconds
+  Import took 0.008799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.340225 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fcff0381342da7cbfad966046b5eeb') in 0.005613 seconds
+  Import took 0.009986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.980049 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532a44d2ce8ea9e1f37f2da1cd41a351') in 0.005102 seconds
+  Import took 0.008561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.543991 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4fa40a4a78819ed795b47494d59c22') in 0.005037 seconds
+  Import took 0.008637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.657354 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8669b8c1360fa56133ced486da50000c') in 0.005380 seconds
+  Import took 0.009465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.584749 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop 1.prefab
+  artifactKey: Guid(fa72339861021834ba1e1c3bcc24368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop 1.prefab using Guid(fa72339861021834ba1e1c3bcc24368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322f414bfff55acb614ebc5c5c83dac5') in 0.012251 seconds
+  Import took 0.018133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.159205 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop 1.prefab
+  artifactKey: Guid(fa72339861021834ba1e1c3bcc24368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop 1.prefab using Guid(fa72339861021834ba1e1c3bcc24368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb132b3762ed0eb67b3b7cf9c036afd') in 0.004416 seconds
+  Import took 0.008492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.648585 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d983039ef8326d773aa2987ac90319') in 0.011119 seconds
+  Import took 0.015309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.786638 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca57a510b2e0285c36cf0c31583228d') in 0.005452 seconds
+  Import took 0.009072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.561529 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9731e8b6819e2f5a1d77f4f1b195f7e') in 0.005612 seconds
+  Import took 0.009422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.018151 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c46986bcb4665f99018633ebca1dc8') in 0.005399 seconds
+  Import took 0.008899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.456744 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49409e2bee263bfcf62145518a5268d') in 0.005078 seconds
+  Import took 0.008469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.897718 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6c665b5e6cac67b6ef4bb59b7595c8') in 0.004716 seconds
+  Import took 0.008609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.392876 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1567e0e66a2e8065e5fe36e871e5e6') in 0.005690 seconds
+  Import took 0.009844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.687287 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3c351326fca6d04a02b04496135cd3') in 0.005153 seconds
+  Import took 0.008837 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2421.
+Total: 2.256100 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.552500 ms  DeleteObjects: 0.369900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.396203 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048deb193b847c3cf797d1abf5fe842a') in 0.031955 seconds
+  Import took 0.037269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.583181 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81abfaef44b19276dbfb6d2cacc92dd') in 0.005823 seconds
+  Import took 0.010115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.502638 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8639813716c5a52e88337b7dce288152') in 0.005393 seconds
+  Import took 0.008686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 2.350100 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.766100 ms  DeleteObjects: 0.391300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.650633 seconds.
+  path: Assets/Prefab/SupplyDrops/HealthDrop.prefab
+  artifactKey: Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SupplyDrops/HealthDrop.prefab using Guid(4ea869c0a4fbb3f4cb5862efe2589d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5c1366923be9641e63706b9b280aad') in 0.035174 seconds
+  Import took 0.039595 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2427.
+Total: 3.979500 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.031300 ms MarkObjects: 3.068400 ms  DeleteObjects: 0.693700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
