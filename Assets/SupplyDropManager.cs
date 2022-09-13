@@ -33,17 +33,18 @@ public class SupplyDropManager : MonoBehaviour
 
         if (healthDrop != null)
         {
-
             float radiant = Random.Range(0f, 2 * Mathf.PI);
             float distance = Random.Range(minDistanceToMark, maxDistanceToMark);
 
             Vector3 dropLocation = new Vector3(
-                distance * Mathf.Cos(radiant),
+                distance * Mathf.Cos(radiant) + healthDropHeightMark.transform.position.x,
                 healthDropHeightMark.transform.position.y,
-                distance * Mathf.Sin(radiant)
-            ); 
+                distance * Mathf.Sin(radiant) + healthDropHeightMark.transform.position.z
+            );
 
-            
+            GameObject newHealthDrop = GameObject.Instantiate(healthDrop, dropLocation, Quaternion.identity);
         }
+
+        StartCoroutine(TryToDropSupply());
     }
 }
