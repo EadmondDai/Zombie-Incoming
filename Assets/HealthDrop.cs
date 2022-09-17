@@ -21,6 +21,6 @@ public class HealthDrop : MonoBehaviour
 
     public void OnUsed()
     {
-        DestroyObject(gameObject);
+        Destroy(gameObject);
     }
 }
