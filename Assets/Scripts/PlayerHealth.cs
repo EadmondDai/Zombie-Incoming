@@ -29,4 +29,10 @@ public class PlayerHealth : MonoBehaviour
             deathScript.OnDead();
         }
     }
+
+    public void OnHeal(int health)
+    {
+        playerHealth += health;
+        healthText.text = playerHealth.ToString();
+    }
 }

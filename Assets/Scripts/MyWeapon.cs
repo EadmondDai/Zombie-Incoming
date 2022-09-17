@@ -58,6 +58,14 @@ public class MyWeapon : MonoBehaviour
             EnemyHealth health = hit.transform.GetComponent<EnemyHealth>();
             if (health)
                 health.OnHit(damage);
+
+            HealthDrop healthDrop = hit.transform.GetComponent<HealthDrop>();
+            if (healthDrop)
+            {
+                GetComponentInParent<PlayerHealth>().OnHeal(healthDrop.healthPoint);
+                healthDrop.OnUsed();
+            }
+
         }
     }
 

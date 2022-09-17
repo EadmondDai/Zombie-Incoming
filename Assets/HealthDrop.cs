@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class HealthDrop : MonoBehaviour
 {
     public int healthPoint = 20;
@@ -18,8 +19,8 @@ public class HealthDrop : MonoBehaviour
         
     }
 
-    public void OnHit()
+    public void OnUsed()
     {
-
+        DestroyObject(gameObject);
     }
 }
