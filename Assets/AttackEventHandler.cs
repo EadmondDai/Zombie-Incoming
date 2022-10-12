@@ -18,6 +18,6 @@ public class AttackEventHandler : MonoBehaviour
 
     public void OnCastingDone()
     {
-        //GetComponentInParent<Enemy>().OnCastingDone();
+        GetComponentInParent<EnemyAttack>().AttackHitEvent();
     }
 }
