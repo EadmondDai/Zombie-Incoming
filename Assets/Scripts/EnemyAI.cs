@@ -33,8 +33,7 @@ public class EnemyAI : MonoBehaviour
     void DoChase()
     {
         FaceTarget();
-        GetComponent<Animator>().SetBool("Attack", false);
-        GetComponent<Animator>().SetTrigger("Move"); 
+        GetComponentInChildren<Animator>().SetBool("Attack", false);
         agent.SetDestination(target.position);
     }
 
@@ -77,7 +76,7 @@ public class EnemyAI : MonoBehaviour
     void Attack()
     {
         FaceTarget();
-        GetComponent<Animator>().SetBool("Attack", true);
+        GetComponentInChildren<Animator>().SetBool("Attack", true);
     }
 
     // Update is called once per frame
