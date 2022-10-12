@@ -10,11 +10,6 @@ public class EnemyHealth : MonoBehaviour
 
     bool isDead = false;
 
-    private void OnEnable()
-    {
-        GetComponent<Animator>().SetBool("Die", false);
-    }
-
     public void OnHit(int damage)
     {
         if (isDead) return;
@@ -25,7 +20,7 @@ public class EnemyHealth : MonoBehaviour
 
         if(health <= 0)
         {
-            GetComponent<Animator>().SetBool("Die", true);
+            GetComponentInChildren<Animator>().SetTrigger("Die");
             GetComponent<AudioSource>().Stop();
             myCollider.enabled = false;
             isDead = true;
