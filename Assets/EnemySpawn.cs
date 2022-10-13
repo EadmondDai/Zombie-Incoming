@@ -6,7 +6,7 @@ public class EnemySpawn : MonoBehaviour
 {
     [SerializeField] Transform[] spawnPoints;
     [SerializeField] int enemyLeft;
-    [SerializeField] GameObject enemyPrefab;
+    [SerializeField] GameObject[] enemyPrefab;
     [SerializeField] Transform enemyHolder;
 
     // Start is called before the first frame update
@@ -29,7 +29,7 @@ public class EnemySpawn : MonoBehaviour
         {
             Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length - 1)];
 
-            GameObject newEnemy = Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+            GameObject newEnemy = Instantiate(enemyPrefab[Random.Range(0, enemyPrefab.Length)], spawnPoint.position, spawnPoint.rotation);
             newEnemy.transform.parent = enemyHolder;
             enemyLeft--;
 
